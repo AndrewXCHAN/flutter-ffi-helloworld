@@ -64,13 +64,12 @@ class _MyHomePageState extends State<MyHomePage> {
       libraryPath = path.join(Directory.current.path, 'hello_library',
           'libhello.dylib');
     } else if (Platform.isWindows) {
-      libraryPath = path.join(Directory.current.path, 'hello_library',
-          'Debug', 'hello.dll');
+      libraryPath = path.join(Directory.current.path, 'hello_library','hello.dll');
     }
     final dylib = ffi.DynamicLibrary.open(libraryPath);
 
     final HelloWorld hello = dylib
-        .lookup<ffi.NativeFunction<hello_world_func>>('hello_world')
+        .lookup<ffi.NativeFunction<hello_world_func>>('hello_world2')
         .asFunction();
 
     hello();

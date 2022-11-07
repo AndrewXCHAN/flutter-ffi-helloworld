@@ -1,3 +1,14 @@
 # untitled2
-GnuWin32: Make-3.81
-CMake by Kitware
+```
+https://dart.dev/guides/libraries/c-interop
+```
+
+## Installing MinGW
+## GnuWin32: Make-3.81
+## CMake by Kitware
+
+
+``` shell
+cd hello_library
+cmake . 
+```

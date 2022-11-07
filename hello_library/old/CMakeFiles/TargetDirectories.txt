@@ -1,0 +1,4 @@
+C:/Users/ccc/StudioProjects/untitled2/hello_library/CMakeFiles/hello_library.dir
+C:/Users/ccc/StudioProjects/untitled2/hello_library/CMakeFiles/hello_test.dir
+C:/Users/ccc/StudioProjects/untitled2/hello_library/CMakeFiles/ALL_BUILD.dir
+C:/Users/ccc/StudioProjects/untitled2/hello_library/CMakeFiles/ZERO_CHECK.dir
