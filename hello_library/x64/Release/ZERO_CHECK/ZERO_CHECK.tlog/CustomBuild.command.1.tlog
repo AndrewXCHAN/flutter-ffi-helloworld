@@ -1,0 +1,10 @@
+^C:\USERS\CCC\STUDIOPROJECTS\UNTITLED2\HELLO_LIBRARY\CMAKEFILES\DFFADDDC75558B3F195046CF819F495D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ccc/StudioProjects/untitled2/hello_library -BC:/Users/ccc/StudioProjects/untitled2/hello_library --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ccc/StudioProjects/untitled2/hello_library/hello_library.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

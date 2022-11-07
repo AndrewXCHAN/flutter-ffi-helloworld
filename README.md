@@ -11,4 +11,6 @@ https://dart.dev/guides/libraries/c-interop
 ``` shell
 cd hello_library
 cmake . 
+cmake --build . --config Release
+cp Release/hello.dll .
 ```
